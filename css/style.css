@@ -27,6 +27,7 @@ html {
 }
 nav {
     background-color: rgba(240, 237, 247, 0.57);
+    font-family: georgia;
 }
 h2 {
    font-family: courier;
