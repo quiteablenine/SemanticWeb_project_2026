@@ -11,17 +11,20 @@ header {
     color: #FFFFFF;
     background-color: rgb(153, 31, 31);
     font-family: courier;
+    border: solid black 5px;
 
 }
 
 li {
     color: rgb(28,28,28);
     background-color: rgb(175, 199, 245);
-    font-size: 18px;
-    border-bottom: solid black 2px;
+
+    border: solid black 2px;
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem 0.2rem 1rem 1rem;
     box-sizing: border-box;
+    margin: 1em
+
 
 
 
@@ -32,6 +35,8 @@ ul > li {
     font-family: georgia;
     border-bottom: solid black 4 px;
     margin: auto;
+    width: 100%;
+
 
 
 }
@@ -46,7 +51,7 @@ nav {
     font-size: 1.2em;
     width: 80%;
     margin: auto;
-   box-sizing: content--box;
+    box-sizing: border-box;
 
 
 }
