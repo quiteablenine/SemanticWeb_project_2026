@@ -2,6 +2,10 @@ p {
     color: #712323;
     background-color: rgba(227, 227, 227, 1);
     font-family: georgia;
+    font-size: 17px;
+    margin: 1.25em;
+    padding: 0.75rem;
+    border: solid black 3px;
 }
 header {
     color: #FFFFFF;
@@ -12,14 +16,24 @@ header {
 
 li {
     color: rgb(28,28,28);
-    background-color: rgba(100, 148, 237, 0.56);
-    font-size: 1em;
+    background-color: rgb(175, 199, 245);
+    font-size: 18px;
+    border-bottom: solid black 2px;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+
+
 
 }
 
 ul > li {
     font-size: 1.2em;
     font-family: georgia;
+    border-bottom: solid black 4 px;
+    margin: auto;
+
+
 }
 
 html {
@@ -28,6 +42,13 @@ html {
 nav {
     background-color: rgba(240, 237, 247, 0.57);
     font-family: georgia;
+    border: 6px solid black;
+    font-size: 1.2em;
+    width: 80%;
+    margin: auto;
+   box-sizing: content--box;
+
+
 }
 h2 {
    font-family: courier;
@@ -45,4 +66,15 @@ h3{
 }
 footer{
   color: #FFFFFF;
-  font-family: georgia; }
+  font-family: georgia;
+border: 3px solid black;
+padding: 0.5rem;
+background-color: rgba(255, 6, 6, 0.44)}
+
+
+address{
+    color: #ffffff;
+    font-family: georgia;
+    background-color: rgba(255, 6, 6, 0.44);
+        border: 3px solid black;
+}
