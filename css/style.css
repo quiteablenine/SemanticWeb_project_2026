@@ -4,7 +4,7 @@ p {
     font-family: georgia;
     font-size: 17px;
     margin: 1.25em;
-    padding: 0.75rem;
+    padding: 1.1em;
     border: solid black 3px;
 }
 header {
@@ -12,6 +12,8 @@ header {
     background-color: rgb(153, 31, 31);
     font-family: courier;
     border: solid black 5px;
+    padding: 0.5rem;
+    box-sizing: border-box;
 
 }
 
@@ -19,11 +21,12 @@ li {
     color: rgb(28,28,28);
     background-color: rgb(175, 199, 245);
 
-    border: solid black 2px;
+    border: solid black 1.5px;
     width: 100%;
-    padding: 0.5rem 0.2rem 1rem 1rem;
-    box-sizing: border-box;
-    margin: 1em
+   padding: 10px;
+    box-sizing:  border-box;
+    margin: 5px;
+
 
 
 
@@ -31,11 +34,13 @@ li {
 }
 
 ul > li {
-    font-size: 1.2em;
+
     font-family: georgia;
     border-bottom: solid black 4 px;
     margin: auto;
     width: 100%;
+    font-size: 1.2em;
+
 
 
 
@@ -47,8 +52,8 @@ html {
 nav {
     background-color: rgba(240, 237, 247, 0.57);
     font-family: georgia;
-    border: 6px solid black;
-    font-size: 1.2em;
+    border: 5px solid black;
+    font-size: 1.2rem;
     width: 80%;
     margin: auto;
     box-sizing: border-box;
@@ -57,6 +62,9 @@ nav {
 }
 h2 {
    font-family: courier;
+   margin: 2rem 1rem 1rem 0.5rem;
+font-size: 30px;
+
 }
 a {
     color: #000000;
@@ -72,7 +80,7 @@ h3{
 footer{
   color: #FFFFFF;
   font-family: georgia;
-border: 3px solid black;
+border: 0.3rem solid black;
 padding: 0.5rem;
 background-color: rgba(255, 6, 6, 0.44)}
 
@@ -82,4 +90,8 @@ address{
     font-family: georgia;
     background-color: rgba(255, 6, 6, 0.44);
         border: 3px solid black;
+}
+
+#return{
+   border: 3px dashed black;
 }
