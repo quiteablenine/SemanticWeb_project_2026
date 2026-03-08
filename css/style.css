@@ -6,11 +6,11 @@ p {
     margin: 1.25em;
     padding: 1.1em;
     border: solid black 3px;
+    line-height: 1.2;
 }
 header {
     color: #FFFFFF;
     background-color: rgb(153, 31, 31);
-    font-family: courier;
     border: solid black 5px;
     padding: 0.5rem;
     box-sizing: border-box;
@@ -26,12 +26,16 @@ li {
    padding: 10px;
     box-sizing:  border-box;
     margin: 5px;
-
-
-
-
-
 }
+
+#nameplate{
+        width: fit-content;
+        text-align: center;
+        border: center;
+        margin: auto;
+    }
+
+
 
 ul > li {
 
@@ -47,7 +51,8 @@ ul > li {
 }
 
 html {
-    background-color: rgba(100, 134, 237, 0.86)
+    background-color: rgba(100, 134, 237, 0.86);
+    font-size: 100%;
 }
 nav {
     background-color: rgba(240, 237, 247, 0.57);
@@ -61,21 +66,18 @@ nav {
 
 }
 h2 {
-   font-family: courier;
-   margin: 2rem 1rem 1rem 0.5rem;
+    margin: 2rem 1rem 1rem 0.5rem;
 font-size: 30px;
 
 }
 a {
     color: #000000;
 }
-#hobby, #hobby2 {
-    Font-family: courier;
-}
 
 
-h3{
-    font-family: georgia;
+h1,h2,h3{
+    font-family: Times, Times New Roman;
+    text-align: center;
 }
 footer{
   color: #FFFFFF;
