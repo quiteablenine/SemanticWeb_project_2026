@@ -56,7 +56,7 @@ ul > li {
 html {
     background-color: rgba(100, 134, 237, 0.86);
     font-size: 100%;
-    font-family: Trebuchet MS, Noto sans, sans-serif;
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
 }
 nav {
     background-color: rgba(240, 237, 247, 0.57);
@@ -82,12 +82,12 @@ h3{
 }
 
 h1,h2,h3{
-    font-family: Times, Times New Roman, serif;
+    font-family: "Times", "Times New Roman", serif;
     text-align: center;
 }
 footer{
   color: #FFFFFF;
-  font-family: Trebuchet MS, Noto sans, sans-serif;
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
 border: 0.3rem solid black;
 padding: 0.5rem;
 background-color: rgba(255, 6, 6, 0.44)}
@@ -97,7 +97,7 @@ address{
     color: #ffffff;
     background-color: rgba(255, 6, 6, 0.44);
         border: 3px solid black;
-    font-family: Trebuchet MS, Noto sans, sans-serif;
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
 }
 
 #return{
