@@ -22,12 +22,13 @@ header {
 li {
     color: rgb(28,28,28);
     background-color: rgb(175, 199, 245);
-
+    list-style-position: inside;
     border: solid black 1.5px;
     width: 100%;
    padding: 10px;
     box-sizing:  border-box;
     margin: 5px;
+    background: radial-gradient(cyan, green)
 }
 
 #nameplate{
@@ -49,12 +50,13 @@ ul > li {
     margin: auto;
     width: 100%;
     font-size: 1.2em;
+    list-style-position: inside;
 
 
 }
 
 html {
-    background-color: rgba(100, 134, 237, 0.86);
+    background: radial-gradient(lightblue, gray);
     font-size: 100%;
     font-family: "Trebuchet MS", "Verdana", sans-serif;
 }
@@ -68,6 +70,15 @@ nav {
 
 
 }
+img {
+        border: solid black 11px;
+
+        padding: 40px;
+        background: linear-gradient(90deg, gold, green);
+        object-position: 100% 50%;
+        margin-right: 5px;
+
+    }
 h2 {
     margin: 2rem 1rem 1rem 0.5rem;
 font-size: 30px;
