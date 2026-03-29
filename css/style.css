@@ -73,8 +73,10 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
-    flex-flow: row wrap;
-    align-items: space;
+    flex-flow: row nowrap;
+    align-content: space-around;
+    padding: 1em;
+    list-style-position: inside;
 
 
     background-color: rgba(240, 237, 247, 0.57);
@@ -106,9 +108,9 @@ a {
 
 
 
-.walk {
+#hobb {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row nowrap;
     justify-content: center;
 
 }
