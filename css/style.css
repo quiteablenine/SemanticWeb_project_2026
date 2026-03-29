@@ -107,11 +107,15 @@ a {
 }
 
 
+#start{
+    justify-content: center;
+}
 
 #hobb {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+
 
 }
 h3 {
