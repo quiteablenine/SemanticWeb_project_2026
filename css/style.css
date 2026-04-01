@@ -111,7 +111,7 @@ a {
     justify-content: center;
 }
 
-#hobb {
+article {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
