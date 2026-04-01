@@ -117,14 +117,13 @@ a {
     justify-content: center;
 
 
+
 }
 h3 {
     font-size: 24px;
     display: flex;
-    flex-flow: wrap;
-    gap: 50px;
     justify-content: center;
-
+    gap: 50px;
 
 
 }
