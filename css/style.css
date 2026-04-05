@@ -33,7 +33,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-flow: column nowrap
+    flex-flow: column wrap
 }
 
 #nameplate{
@@ -73,7 +73,7 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-content: space-around;
     padding: 1em;
     list-style-position: inside;
